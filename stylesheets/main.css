@@ -1,0 +1,61 @@
+body {
+  background-color: #FFFDF7;
+  font-family: monospace;
+}
+
+/* Nav */
+.navbar {
+  z-index: 99;
+} .navbar-nav {
+  padding: 2px 8px;
+  background-color: #FFFDF7;
+  font-weight: bold;
+} .nav-item {
+  padding: 0px 4px;
+} .banner {
+  width: 100%;
+  z-index: 0;
+}
+
+
+/* CONTENT */
+
+.content {
+  margin: 0 auto;
+  max-width: 900px;
+} .fade-in {
+  opacity: 0;
+  animation: fade-in-anim 1s ease-in-out 2s 1 normal forwards;
+} @keyframes fade-in-anim {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+/* Header */
+.header {
+  margin-top: 30px;
+} .title {
+  font-size: 46px;
+} .opener {
+  font-size: 22px;
+}
+
+/* Socials */
+.socials {
+  width: fit-content;
+  margin: 20px 0 50px 0;
+  text-align: center;
+} .social-glyph {
+  height: 44px;
+  margin: 0px 3px;
+}
+
+/* Text Body */
+.text-body {
+  margin-top: 30px;
+} .heading {
+  font-size: 30px;
+  margin-bottom: 7px;
+} .text {
+  font-size: 18px;
+}
