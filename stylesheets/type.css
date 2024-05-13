@@ -3,12 +3,25 @@
   background:
     linear-gradient(-90deg,#ebab57 5px,#0000 0) 10px 0,
     linear-gradient(#111 0 0) 0 0;
-  background-size:calc(var(--n)*1ch) 200%;
-  -webkit-background-clip:padding-box,text;
-  background-clip:padding-box,text;
-  background-repeat:no-repeat;
+  background-size: calc(var(--n)*1ch) 200%;
+  -webkit-background-clip: padding-box,text;
+  background-clip: padding-box,text;
+  background-repeat: no-repeat;
   animation: 
-    t calc(var(--n)*.03s) steps(var(--n)) forwards;
+    t calc(var(--n)*.012s) steps(var(--n)) forwards;
+}
+
+.typed-slow {
+  color:#0000;
+  background:
+    linear-gradient(-90deg,#ebab57 5px,#0000 0) 10px 0,
+    linear-gradient(#111 0 0) 0 0;
+  background-size: calc(var(--n)*1ch) 200%;
+  -webkit-background-clip: padding-box,text;
+  background-clip: padding-box,text;
+  background-repeat: no-repeat;
+  animation: 
+    t calc(var(--n)*.09s) steps(var(--n)) forwards;
 }
 
 @keyframes t {
