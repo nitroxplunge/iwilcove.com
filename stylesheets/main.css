@@ -69,10 +69,11 @@ body {
 } .text-body td {
   padding-bottom: 15px;
 } .col-small {
-  width: 275px;
+  width: 12ch;
   text-align: left;
-  padding-right: 30px;
   color: #757578;
+} .col-flex {
+  padding-left: 30px;
 }
 
 /* Resume */
